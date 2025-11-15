@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": "./", //解析非相对模块的基地址，默认是当前目录
+    "paths": { //路径映射，用于设置模块导入的别名，相当于baseUrl
+      "@/*": [
+        "src/*"
+      ]
+    }
+  }
+}

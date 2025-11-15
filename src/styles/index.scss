@@ -1,0 +1,22 @@
+//该文件用于引入所有scss文件，包括默认清除样式文件，全局样式文件，以及组件样式文件
+
+//引入清除样式文件
+@use './reset.scss' as *;
+
+//滚动条外观设置
+::-webkit-scrollbar {
+  width: 10px;
+  // height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: green;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  border-radius: 10px; //圆角
+  background: blue;
+}
+
+// 
